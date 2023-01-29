@@ -22,4 +22,5 @@ More details
 - The line "early_stopping = EarlyStopping(patience=10, restore_best_weights=True)" sets up early stopping, and the callback "early_stopping" is passed to the "fit" method of the model, so that it will be used during training. 
 
 Overall, hopefully this script provides a good starting point for anyone looking to build a time series forecasting model using LSTM in Keras. 
+
 cbrwx
