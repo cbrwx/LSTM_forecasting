@@ -5,6 +5,8 @@ This code uses the Keras library to build and train an LSTM (Long-Short-Term-Mem
 
 The code can be used for time series prediction tasks where the goal is to predict a future value based on a sequence of past values. The code can be modified for different time series datasets and for different prediction goals by changing the preprocessing steps, the model architecture, the loss function and the optimizer.
 
+More details
+
 - Importing required libraries: The script starts by importing the required libraries such as pandas, numpy, scikit-learn, matplotlib and Keras.
 
 - Data preparation: The script reads a CSV file containing the historical data of a any stock/currency/crypto, and stores it in a pandas dataframe. Then, it sorts the data based on the 'Date' column and selects the 'Open', 'High', 'Low', 'Close' and 'Volume' columns as the features to be used for predictions. The feature data is then scaled to the range of (0,1) using MinMaxScaler. Finally, the data is split into training and test sets with 80% of the data being used for training and the remaining 20% being used for testing.
